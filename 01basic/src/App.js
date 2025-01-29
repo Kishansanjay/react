@@ -1,8 +1,10 @@
-import './App.css';
-
+import cloth from './cloth';
 function App() {
   return (
-    <h1>hello react</h1>
+    <>
+      <cloth />
+      <h1>hello react</h1>
+    </>
   );
 }
 
